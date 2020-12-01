@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <body style="background-color:#4c5c8c;"></body>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vuex"></script>
+
+    </head>
+<body>
+    <h1 id="summonerNameHeader"></h1>
+    <p id="textPara"></p>
+    <img src="" id = "profileImg" alt="Summoner Icon">
+
+ <!--   <table style="width:100%">
+        <tr>
+        <th>Role</th>
+        <th>Icon</th>
+        <th>Summoner /nl Rank</th>
+        <th>Clash W/L /nl OVR W/L</th>
+        <th>BWRC Icon</th>
+        <th>BWRC Name</th>
+        <th>Role2</th>
+        <th>Icon2</th>
+        <th>Summoner /nl Rank2</th>
+        <th>Clash W/L /nl OVR W/L2</th>
+        <th>BWRC Icon2</th>
+        <th>BWRC Name2</th>
+        </tr>
+        <tr>
+            <td>TOP</td>
+        </tr>
+        <tr>
+            <td>JUNG</td>
+        </tr>
+        <tr>
+            <td>MID</td>
+        </tr>
+        <tr>
+            <td>BOT</td>
+        </tr>
+        <tr>
+            <td>SUP</td>
+        </tr>
+    </table> -->
+    <div style="width: 100%;">
+
+        <div id="blueteam" style="width: 50%; height: 100px; float: left">
+
+            <div class="content" id = "blue_top">
+                
+                <p class = blue_playername>Summoner Name</p>
+                <p class = blue_winrate>winrate</p>
+                <p class = blue_champion>champion</p>
+                                                            
+            </div>
+
+            <div class="content" id = "blue_jung">
+                
+                <p class = blue_playername>Summoner Name</p>
+                <p class = blue_winrate>winrate</p>
+                <p class = blue_champion>champion</p>
+                                                            
+            </div>
+            <div class="content" id = "blue_mid">
+                
+                <p class = blue_playername>Summoner Name</p>
+                <p class = blue_winrate>winrate</p>
+                <p class = blue_champion>champion</p>
+                                                            
+            </div>
+            <div class="content" id = blue_adc">
+                
+                <p class = blue_playername>Summoner Name</p>
+                <p class = blue_winrate>winrate</p>
+                <p class = blue_champion>champion</p>
+                                                            
+            </div>
+            <div class="content" id = "blue_sup">
+                
+                <p class = blue_playername>Summoner Name</p>
+                <p class = blue_winrate>winrate</p>
+                <p class = blue_champion>champion</p>
+                                                            
+            </div>
+        </div>
+
+
+    <!---->
+    <div id = "redteam" style="margin-left: 50%;">
+        <div class="content" id = "red_top">
+            
+            <p class = red_playername>Summoner Name</p>
+            <p class = red_winrate>winrate</p>
+            <p class = red_champion>champion</p>
+                                                        
+        </div>
+
+        <div class="content" id = "red_jung">
+            
+            <p class = red_playername>Summoner Name</p>
+            <p class = red_winrate>winrate</p>
+            <p class = red_champion>champion</p>
+                                                        
+        </div>
+        <div class="content" id = "red_mid">
+            
+            <p class = red_playername>Summoner Name</p>
+            <p class = red_winrate>winrate</p>
+            <p class = red_champion>champion</p>
+                                                        
+        </div>
+        <div class="content" id = "red_adc">
+            
+            <p class = red_playername>Summoner Name</p>
+            <p class = red_winrate>winrate</p>
+            <p class = red_champion>champion</p>
+                                                        
+        </div>
+        <div class="content" id = "red_sup">
+            
+            <p class = red_playername>Summoner Name</p>
+            <p class = red_winrate>winrate</p>
+            <p class = red_champion>champion</p>
+                                                        
+        </div>
+    </div>
+
+</div>
+    <script src = "results.js" type="module"></script>
+</body>
+</html> 

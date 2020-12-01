@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Clash Buddy</title>
+		    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  </head>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Blank</a></li>
+				<li><a href="#">Blank</a></li>
+				<li><a href="#">Blank</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="#" class="button primary fit">Search</a></li>
+				<li><a href="#" class="button fit">Under Construction</a></li>
+			</ul>
+		</nav>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Clash</strong> <span>Buddy</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+		
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								
+								<div class="grid-container">
+									<div class="item1">
+										<form class="needs-validation" novalidate>
+											<input type="text" class="form-control" id="validationTooltip01" placeholder="Summoner Name" required>
+										</form>
+									</div>
+									<div class="item2">
+										<ul class="actions">
+											<li><a href="#one" id="searchButton" class="button scrolly">Get Started</a></li>
+										</ul>
+									</div>
+								  </div>
+
+								
+							</header>
+							<div class="content">
+								<p>If you've forgotten your ID -<a href="https://recovery.riotgames.com/en/forgot-username">click here!</a>
+								<br>
+								Confused? -<a href="https://recovery.riotgames.com/en/forgot-username">ReadMe</a></p>
+								
+								
+							</div>
+						</div>
+					</section>
+
+
+			
+			</div>
+			<script>
+				// Example starter JavaScript for disabling form submissions if there are invalid fields
+				(function() {
+				  'use strict';
+				  window.addEventListener('load', function() {
+					// Fetch all the forms we want to apply custom Bootstrap validation styles to
+					var forms = document.getElementsByClassName('needs-validation');
+					// Loop over them and prevent submission
+					var validation = Array.prototype.filter.call(forms, function(form) {
+					  form.addEventListener('submit', function(event) {
+						if (form.checkValidity() === false) {
+						  event.preventDefault();
+						  event.stopPropagation();
+						}
+						form.classList.add('was-validated');
+					  }, false);
+					});
+				  }, false);
+				})();
+				</script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="index.js"></script>
+
+	</body>
+</html>
